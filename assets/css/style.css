@@ -152,7 +152,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: flex;
   align-items: center;
-  color: #a8a9b4;
+  color: #bfbfc9;
   padding: 12px 15px;
   margin-bottom: 8px;
   transition: 0.3s;
@@ -162,7 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a i {
   font-size: 24px;
   padding-right: 8px;
-  color: #999caf;
+  color: #bfbfc9;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
@@ -231,10 +231,11 @@ h1, h2, h3, h4, h5, h6 {
 #hero .hero-container {
   position: relative;
   z-index: 2;
-  min-width: 300px;
+  min-width: 1050px;
 }
 
 #hero h1 {
+  transform:rotate(-8.5deg);
   margin: 0 0 10px 0;
   font-size: 64px;
   font-weight: 700;
@@ -243,8 +244,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero p {
+  transform:rotate(-8.5deg);
   color: #fff;
-  margin-bottom: 50px;
+  margin-bottom: 180px;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
@@ -283,7 +285,7 @@ section {
 }
 
 .section-bg {
-  background: #f5f8fd;
+  background: #bebebe;
 }
 
 .section-title {
